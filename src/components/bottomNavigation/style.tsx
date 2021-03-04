@@ -73,7 +73,6 @@ export const navigationStyles=(shadow?:boolean)=>{
         alignContent:'center',
         justifyContent:'center',
         alignItems:'center',
-        shadowColor:'red',
     },
     labelStyles:{
       paddingBottom:80,

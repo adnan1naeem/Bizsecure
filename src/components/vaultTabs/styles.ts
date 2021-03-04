@@ -10,7 +10,7 @@ export const styles={
       shadowColor: "#000",
       shadowOffset: {
         width: 0,
-        height: 15,
+        height: 4,
       },
       shadowOpacity: 0.25,
       shadowRadius: 1.84,
