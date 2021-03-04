@@ -47,7 +47,8 @@ export const navigationStyles=(shadow?:boolean)=>{
     labelColumnStyles:{
       marginBottom:60, 
       alignItems:'center', 
-      flexDirection:'column'
+      flexDirection:'column',
+      color:'transparent'
     },
 
     headerStyles:{

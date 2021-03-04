@@ -27,16 +27,16 @@ export const BottomNavigation = ({vaultScreen,navigation}:BottomNavigationInterf
     <SafeAreaView  style={styles.container}>
       <Shadow style={styles.box} >
           <View style={styles.rowSyles}>
-            <LabelButton vaultScreen={false} label="Pay" icon="currency-usd" onPress={()=>null} />
+            <LabelButton vaultScreen={false} label="Pay" image={require('../../assets/dollar.png')} onPress={()=>null} />
           <View style={styles.buttonStyles}>
             <MaterialCommunityIcons
-              name="plus-outline"
+              name="plus"
               color="white"
               size={30}
               onPress={() => null}
             />
           </View>
-          <LabelButton vaultScreen={vaultScreen} label="Vault" icon="currency-usd" onPress={()=>navigation.navigate('VaultScreen')}/>
+          <LabelButton vaultScreen={vaultScreen} label="Vault" image={require('../../assets/wallet.png')} onPress={()=>navigation.navigate('VaultScreen')}/>
          </View>
        </Shadow>
     </SafeAreaView>
