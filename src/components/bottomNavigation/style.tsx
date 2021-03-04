@@ -7,6 +7,10 @@ export const navigationStyles=(shadow?:boolean)=>{
       alignItems:'center',
       justifyContent:'flex-end'
     },
+    image:{
+      width:25,
+      height:20
+    },
     box:{
       marginBottom:Platform.OS=='android'?10:0,
       borderRadius: 20,

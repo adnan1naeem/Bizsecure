@@ -8,6 +8,10 @@ export const styles={
   bottom:{
     flex:1,
     justifyContent:'flex-end'
+  },
+  end:{
+    flex:1,
+    justifyContent:'flex-end'
   }
 }
 

@@ -25,7 +25,7 @@ export const LabelButton = ({vaultScreen,onPress,label,image}:LabelButtonInterfa
   return (
     <TouchableOpacity disabled={vaultScreen}   onPress={onPress} style={styles.labelColumnStyles}>
         <Neomorph style={styles.neuomorphStyles}>
-          <Image   style={{width:25,height:20}} source={image}/>
+          <Image   style={styles.image} source={image}/>
         </Neomorph>
         <Text style={styles.labelStyles}>{label}</Text>
     </TouchableOpacity>

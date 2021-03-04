@@ -21,7 +21,9 @@ export const BackgroundContainer= ({vaultScreen,children,navigation}:BackgroundC
   return (
     <View style={styles.container}>
         {children}
+      <View style={styles.end}>
        <BottomNavigation navigation={navigation} vaultScreen={vaultScreen}/>
+      </View> 
     </View>
   );
 };

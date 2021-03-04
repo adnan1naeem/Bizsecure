@@ -3,7 +3,6 @@ import  {
   BackgroundContainer,
   Header,
   VaultTabs,
-  ChangeMode
 }  from '../../components'
 
 /** 
@@ -23,7 +22,6 @@ export const VaultScreen=({navigation}:VaultScreenInterface)=> {
     <BackgroundContainer vaultScreen={true} navigation={navigation}>
       <Header leftIcon='menu' rightIcon='home' navigation={navigation}/>
         <VaultTabs/>
-      <ChangeMode/>
     </BackgroundContainer>
   );
 }
